@@ -1,0 +1,41 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sumnail_view"
+    android:layout_width="160dp"
+    android:layout_height="180dp"
+    android:background="@drawable/edge2"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/youtube_image"
+        card_view:layout_constraintTop_toTopOf="parent"
+        card_view:layout_constraintLeft_toLeftOf="parent"
+        card_view:layout_constraintRight_toRightOf="parent"
+        card_view:layout_constraintBottom_toTopOf="@+id/youtube_name"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/student_support"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/youtube_name"
+        card_view:layout_constraintTop_toBottomOf="@+id/youtube_image"
+        card_view:layout_constraintLeft_toLeftOf="@+id/youtube_image"
+        card_view:layout_constraintRight_toRightOf="@+id/youtube_image"
+        card_view:layout_constraintBottom_toTopOf="@+id/youtube_image"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="학생 지원 시스템"
+        android:textSize="15dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

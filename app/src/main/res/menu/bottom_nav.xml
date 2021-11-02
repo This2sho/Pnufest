@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/home_ic"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/youtubeFragment"
+        android:icon="@drawable/youtube_ic"
+        android:title="Youtube" />
+
+    <item
+        android:id="@+id/developerFragment"
+        android:icon="@drawable/developer_ic"
+        android:title="Developer" />
+
+</menu>
